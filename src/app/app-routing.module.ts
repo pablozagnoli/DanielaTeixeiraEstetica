@@ -5,7 +5,8 @@ import { ProfileComponent } from './profile/profile/profile.component';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'paginainicial'
+    redirectTo: 'paginainicial',
+    pathMatch: 'full'
   },
   {
     path: 'paginainicial',
