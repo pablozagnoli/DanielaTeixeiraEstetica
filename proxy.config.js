@@ -1,7 +1,7 @@
 const proxy = [
   {
-    context: '/api',
-    target: 'https://pablozagnoli.github.io/DanielaTeixeiraEstetica/',
+    context: ['/api'],
+    target: 'https://pablozagnoli.github.io/',
     pathRewrite: {'^/api' : ''}
   }
 ];
