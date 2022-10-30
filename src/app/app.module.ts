@@ -15,6 +15,7 @@ import { AgendarComponent } from './agendar/agendar/agendar.component';
 import { OauthgoogleComponent } from './google/oauthgoogle/oauthgoogle.component';
 import { CarrosselComponent } from './carrossel/carrossel/carrossel.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { BotaowhatsappComponent } from './whatsapp/botaowhatsapp/botaowhatsapp.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     HomeComponent,
     AgendarComponent,
     OauthgoogleComponent,
-    CarrosselComponent
+    CarrosselComponent,
+    BotaowhatsappComponent
   ],
   imports: [
     BrowserModule,
