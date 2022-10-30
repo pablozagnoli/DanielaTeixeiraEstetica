@@ -13,6 +13,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { AgendarComponent } from './agendar/agendar/agendar.component';
 import { OauthgoogleComponent } from './google/oauthgoogle/oauthgoogle.component';
+import { CarrosselComponent } from './carrossel/carrossel/carrossel.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -24,13 +26,15 @@ import { OauthgoogleComponent } from './google/oauthgoogle/oauthgoogle.component
     MasterComponent,
     HomeComponent,
     AgendarComponent,
-    OauthgoogleComponent
+    OauthgoogleComponent,
+    CarrosselComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
