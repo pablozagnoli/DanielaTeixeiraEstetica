@@ -7,9 +7,11 @@ import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
   styleUrls: ['./carrossel.component.css']
 })
 export class CarrosselComponent implements OnInit {
-  @Input() images = ['../../../assets/img/carroussel-1.jpg',
-    '../../../assets/img/carroussel-2.jpg',
-    '../../../assets/img/carroussel-1.jpg'];
+  @Input() images = [
+    './assets/img/carroussel-1.jpg',
+    './assets/img/carroussel-2.jpg',
+    './assets/img/carroussel-1.jpg'
+  ];
 
   constructor(config: NgbCarouselConfig) {
     // customize default values of carousels used by this component tree
