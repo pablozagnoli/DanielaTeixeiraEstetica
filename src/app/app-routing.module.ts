@@ -1,3 +1,4 @@
+import { OauthgoogleComponent } from './google/oauthgoogle/oauthgoogle.component';
 import { AgendarComponent } from './agendar/agendar/agendar.component';
 import { HomeComponent } from './home/home/home.component';
 import { LoginComponent } from './login/login/login.component';
@@ -26,6 +27,10 @@ const routes: Routes = [
   {
     path: 'agendar',
     component: AgendarComponent
+  },
+  {
+    path: 'googleoath',
+    component: OauthgoogleComponent
   }
 ];
 

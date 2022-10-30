@@ -12,6 +12,7 @@ import { HomeComponent } from './home/home/home.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { AgendarComponent } from './agendar/agendar/agendar.component';
+import { OauthgoogleComponent } from './google/oauthgoogle/oauthgoogle.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { AgendarComponent } from './agendar/agendar/agendar.component';
     LoginComponent,
     MasterComponent,
     HomeComponent,
-    AgendarComponent
+    AgendarComponent,
+    OauthgoogleComponent
   ],
   imports: [
     BrowserModule,
