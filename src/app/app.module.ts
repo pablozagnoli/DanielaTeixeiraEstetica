@@ -11,6 +11,7 @@ import { MasterComponent } from './master/master/master.component';
 import { HomeComponent } from './home/home/home.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+import { AgendarComponent } from './agendar/agendar/agendar.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FormsModule } from '@angular/forms';
     HeaderComponent,
     LoginComponent,
     MasterComponent,
-    HomeComponent
+    HomeComponent,
+    AgendarComponent
   ],
   imports: [
     BrowserModule,
