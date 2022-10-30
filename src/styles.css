@@ -954,27 +954,27 @@ select {
 
 .bg-white {
   --tw-bg-opacity: 1;
-  background-color: rgba(255, 255, 255, var(--tw-bg-opacity))
+  background-color: #2a5a1e
 }
 
 .bg-pink-100 {
   --tw-bg-opacity: 1;
-  background-color: rgba(252, 231, 243, var(--tw-bg-opacity))
+  background-color: #2a5a1e
 }
 
 .bg-pink-200 {
   --tw-bg-opacity: 1;
-  background-color: rgba(251, 207, 232, var(--tw-bg-opacity))
+  background-color: #2a5a1e
 }
 
 .bg-pink-300 {
   --tw-bg-opacity: 1;
-  background-color: rgba(249, 168, 212, var(--tw-bg-opacity))
+  background-color: #2a5a1e
 }
 
 .bg-pink-500 {
   --tw-bg-opacity: 1;
-  background-color: rgba(236, 72, 153, var(--tw-bg-opacity))
+  background-color: #2a5a1e
 }
 
 .bg-pink-600 {
