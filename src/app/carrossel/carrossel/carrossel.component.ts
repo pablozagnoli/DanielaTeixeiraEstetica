@@ -8,9 +8,11 @@ import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
 })
 export class CarrosselComponent implements OnInit {
   @Input() images = [
-    './assets/img/carroussel-1.jpg',
-    './assets/img/carroussel-2.jpg',
-    './assets/img/carroussel-1.jpg'
+    './assets/img/carroussel-2.png',
+    './assets/img/carroussel-1.png',
+    './assets/img/carroussel-3.png',
+    './assets/img/carroussel-4.png',
+    './assets/img/carroussel-5.png'
   ];
 
   constructor(config: NgbCarouselConfig) {
