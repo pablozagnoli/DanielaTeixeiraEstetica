@@ -1,6 +1,6 @@
 const proxy = [
   {
-    context: ['https://github.com/pablozagnoli/'],
+    context: ['https://esteticadanielateixeira.com.br/'],
     target: 'https://pablozagnoli.github.io/',
     secure: false,
     logLevel: 'debug'
