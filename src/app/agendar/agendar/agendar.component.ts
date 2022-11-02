@@ -23,7 +23,9 @@ export class AgendarComponent implements OnInit {
   }
 
   criarAgendamento(){
-    this.serve.Agendar(this.AgendamentoDTO).subscribe();
+    this.serve.Agendar(this.AgendamentoDTO).subscribe(() =>{
+      alert("Mensagem Enviada com sucesso!");
+    });
   }
 
 }
