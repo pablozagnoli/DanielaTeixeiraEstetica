@@ -236,7 +236,7 @@
           <div class="flex flex-wrap justify-center text-center mb-24">
             <div class="w-full lg:w-6/12 px-4">
               <h2 class="text-4xl font-semibold">
-                Conheça nossos profissionais
+                Conheça nossas profissionais
               </h2>
               <p class="text-lg leading-relaxed m-4 text-gray-600">
                 Agende uma avaliação.
@@ -351,7 +351,7 @@
               <div  class="flex-auto p-5 lg:p-10">
                 <h4 class="text-2xl font-semibold">Gostaria que entremos em contato?</h4>
                 <p class="leading-relaxed mt-1 mb-4 text-gray-600">
-                  Complete as informações a baixo e entraremos em contato nas proximas 24 horas.
+                  Complete as informações abaixo e entraremos em contato nas proximas 24 horas.
                 </p>
                 <div class="relative w-full mb-3 mt-8">
                   <label
@@ -388,7 +388,7 @@
                   ><input
                     type="Telefone"
                     class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
-                    placeholder="Email"
+                    placeholder="Telefone"
                     style="transition: all 0.15s ease 0s;"
                     [(ngModel)]="AgendamentoDTO.telefone"
                     value="{{AgendamentoDTO.telefone}}"
@@ -415,6 +415,17 @@
                     (click)="criarAgendamento()"
                   >
                     Enviar Mensagem
+                  </button>
+                </div>
+                <div class="text-center mt-6">
+                  <h5 class="text-xl font-bold">Ou agende pelo</h5>
+                  <button
+                    class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
+                    type="button"
+                    style="transition: all 0.15s ease 0s; background-color: green;"
+                    onclick="window.location.href = 'https://api.whatsapp.com/send?phone=5531991426322'"
+                  >
+                    WhatsApp
                   </button>
                 </div>
               </div>
